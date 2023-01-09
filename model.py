@@ -1,4 +1,4 @@
-"""Models and database functions for scoothub App"""
+"""Models and database functions for rainbowbook App"""
 from flask import jsonify, Flask
 import datetime
 from datetime import datetime
@@ -13,22 +13,21 @@ from flask_debugtoolbar import DebugToolbarExtension
 # from server import app
 
 # Required to use Flask sessions and the debug toolbar
-engine = create_engine('sqlite:///:scoothub:', echo=True)
+engine = create_engine('sqlite:///:rainbowbook:', echo=True)
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///scoothub'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///rainbowbook'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy()
 db.app = app
 #######################
 
 
-class Device(db.Model):
-	"""Device Table for scoothub"""
+class Location(db.Model):
+	"""Locations Table for rainbowbook"""
 
-	__tablename__ = "devices"
+	__tablename__ = "locations"
 
-	device_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-	event_id = db.Column(db.String(64), nullable=True)
+	location_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
 	type = db.Column(db.String(200), nullable=True)
 	address = db.Column(db.String(1028), nullable=True)
 	lat = db.Column(db.String(200), nullable=True)
@@ -37,15 +36,17 @@ class Device(db.Model):
 	state = db.Column(db.String(200), nullable=True)
 	status = db.Column(db.String(200), nullable=True)
 	charge = db.Column(db.String(200), nullable=True)
+	rating_value = db.Column(db.Integer, nullable=True)
+	rating_number = db.Column(db.Integer, nullable=True)
 
 	def __repr__(self):
 		"""Provide helpful representation when printed."""
-		return "<device_id={} event_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={}>".format(
-			self.device_id, self.event_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge)
+		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={}>".format(
+			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number)
 
 
-class Event(db.Model):
-	"""Scoothub download events"""
+class Review(db.Model):
+	"""rainbowbook download events"""
 
 	__tablename__ = "user_log"
 
@@ -62,30 +63,10 @@ class Event(db.Model):
 			self.event_id, self.source_id, self.datetime, self.time, self.city, self.state)
 
 
-
-class Source(db.Model):
-	"""scoothub sources"""
-
-	__tablename__ = "sources"
-
-	source_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-	name = db.Column(db.String(96))
-	login_un = db.Column(db.String(96), nullable=True)
-	login_pass = db.Column(db.String(96), nullable=True)
-	url = db.Column(db.String(96), nullable=True)
-	endpoint = db.Column(db.String(96), nullable=True)
-	notes = db.Column(db.String(1028), nullable=True)
-
-	def __repr__(self):
-		"""Provide helpful representation when printed."""
-		return "<source_id={} name={} login_un={} login_pass={} url={} endpoint={} notes={}>".format(
-			self.source_id, self.name, self.login_un, self.login_pass, self.url, self.endpoint, self.notes)
-
-
 ################################################################################
 # Helper functions
 
-def connect_to_db(app, db_uri='postgresql:///scoothub'):
+def connect_to_db(app, db_uri='postgresql:///rainbowbook'):
 	"""Connect the database to our Flask app."""
 	# Configure to use our PstgreSQL database
 	print("Connecting")
@@ -98,5 +79,5 @@ def connect_to_db(app, db_uri='postgresql:///scoothub'):
 		starter_data()
 
 if __name__ == "__main__":
-	connect_to_db(app, 'postgresql:///scoothub')
+	connect_to_db(app, 'postgresql:///rainbowbook')
 	print("Connected to DB.")
