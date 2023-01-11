@@ -64,6 +64,24 @@ class Review(db.Model):
 		return "<review_id={} location_id={} user_id={} datetime={} review_value={} review_text={}>".format(
 			self.review_id, self.location_id, self.user_id, self.datetime, self.review_value, self.review_text)
 
+class User(db.Model):
+	"""User Table in rainbowbook App"""
+
+	__tablename__ = "users"
+
+	user_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	username = db.Column(db.String(64), nullable=True)
+	name = db.Column(db.String(64), nullable=True)
+	fname = db.Column(db.String(64), nullable=True)
+	lname = db.Column(db.String(64), nullable=True)
+	email = db.Column(db.String(256))
+	created_at = db.Column(db.DateTime, nullable=True)
+	phone = db.Column(db.String(28), nullable=True)
+
+	def __repr__(self):
+		"""Provide helpful representation when printed."""
+		return "<user_id={} username={} name={} fname={} lname={} email={} created_at={} phone={} type={}>".format(
+			self.user_id, self.username, self.name, self.fname, self.lname, self.email,self.created_at, self.phone, self.type)
 
 ################################################################################
 # Helper functions
