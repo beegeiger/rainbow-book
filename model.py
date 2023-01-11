@@ -38,11 +38,13 @@ class Location(db.Model):
 	charge = db.Column(db.String(200), nullable=True)
 	rating_value = db.Column(db.Integer, nullable=True)
 	rating_number = db.Column(db.Integer, nullable=True)
+	api_id = db.Column(db.String(200), nullable=True)
+	link = db.Column(db.String(200), nullable=True)
 
 	def __repr__(self):
 		"""Provide helpful representation when printed."""
-		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={}>".format(
-			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number)
+		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={} api_id={} link={}>".format(
+			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number, self.api_id, self.link)
 
 
 class Review(db.Model):
