@@ -48,21 +48,21 @@ class Location(db.Model):
 
 
 class Review(db.Model):
-	"""rainbowbook download events"""
+	"""rainbowbook reviews"""
 
 	__tablename__ = "user_log"
 
-	event_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-	source_id = db.Column(db.Integer, db.ForeignKey('sources.source_id'))
+	review_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	location_id = db.Column(db.Integer, db.ForeignKey('locations.location_id'))
+	user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
 	datetime = db.Column(db.DateTime, nullable=True)
-	time = db.Column(db.Time, nullable=True)
-	city = db.Column(db.String(200), nullable=True)
-	state = db.Column(db.String(200), nullable=True)
+	review_value = db.Column(db.Integer, nullable=True)
+	review_text = db.Column(db.String(200), nullable=True)
 
 	def __repr__(self):
 		"""Provide helpful representation when printed."""
-		return "<event_id={} source_id={} datetime={} time={} city={} state={}>".format(
-			self.event_id, self.source_id, self.datetime, self.time, self.city, self.state)
+		return "<review_id={} location_id={} user_id={} datetime={} review_value={} review_text={}>".format(
+			self.review_id, self.location_id, self.user_id, self.datetime, self.review_value, self.review_text)
 
 
 ################################################################################
