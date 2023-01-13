@@ -1,0 +1,64 @@
+{
+   "html_attributions" : [],
+   "info_messages" : [
+      "Field \"input\" has been deprecated. Please use \"query\" instead. See documentation for valid queries. https://developers.google.com/maps/documentation/places/web-service/search-text#TextSearchRequests"
+   ],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "140 George St, The Rocks NSW 2000, Australia",
+         "geometry" : {
+            "location" : {
+               "lat" : -33.8599358,
+               "lng" : 151.2090295
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -33.85824377010728,
+                  "lng" : 151.2104386798927
+               },
+               "southwest" : {
+                  "lat" : -33.86094342989272,
+                  "lng" : 151.2077390201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "icon_background_color" : "#13B5C7",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+         "name" : "Museum of Contemporary Art Australia",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3278,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104790014239029387558\"\u003eMuseum of Contemporary Art Australia\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIMmtPXhKgQNei7HuY5RUKi4MNMsP5dgqBEilWagaozAUhxVZQ8oHAiGePAkUp0ZNDJFe4-PzJJhblW0AyB1848_QgeoENseurwdosdHf_yBXtyCMP8wKeOzKHed2M_P-O_-roeahNSebjgNPZx_l1hNRvW3e1y30gdpMsz2jeeM602",
+               "width" : 3543
+            }
+         ],
+         "place_id" : "ChIJ68aBlEKuEmsRHUA9oME5Zh0",
+         "plus_code" : {
+            "compound_code" : "46R5+2J The Rocks, New South Wales, Australia",
+            "global_code" : "4RRH46R5+2J"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ68aBlEKuEmsRHUA9oME5Zh0",
+         "types" : [
+            "tourist_attraction",
+            "museum",
+            "art_gallery",
+            "cafe",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 7353
+      }
+   ],
+   "status" : "OK"
+}

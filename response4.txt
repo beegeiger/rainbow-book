@@ -1,0 +1,99 @@
+{
+   "html_attributions" : [],
+   "info_messages" : [
+      "Field \"input\" has been deprecated. Please use \"query\" instead. See documentation for valid queries. https://developers.google.com/maps/documentation/places/web-service/search-text#TextSearchRequests"
+   ],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "1225 Fallon St, Oakland, CA 94612, United States",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7996116,
+               "lng" : -122.2631207
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.80090872989272,
+                  "lng" : -122.2619079701073
+               },
+               "southwest" : {
+                  "lat" : 37.79820907010728,
+                  "lng" : -122.2646076298927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "Alameda County Superior Courthouse",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3971,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116391932424761215921\"\u003eArmando Chevez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJtLxHXN-QuynOsRX2QKM6r7heQFu2KCAsxL1swsngP8I8WjuxYcOfzxGGMPGxPl8s-hXF4OOuSzYh9dE88cl3QNE5NCGmXik8coNFa0olk1i9Xn8WKZ6GOeg8MvkL015naixzlvaxYWKvRYQODEVWsafmhg8eLkhIN1qP6CNanQlgc",
+               "width" : 5956
+            }
+         ],
+         "place_id" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+         "plus_code" : {
+            "compound_code" : "QPXP+RQ Oakland, California",
+            "global_code" : "849VQPXP+RQ"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 75
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "2233 Shore Line Dr, Alameda, CA 94501, United States",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7555687,
+               "lng" : -122.2529692
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.75685122989272,
+                  "lng" : -122.2516441201073
+               },
+               "southwest" : {
+                  "lat" : 37.75415157010728,
+                  "lng" : -122.2543437798927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "California Superior Court of Alameda",
+         "opening_hours" : {},
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116425172904025108429\"\u003eIhor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALric73j_u6OVm0U5-cONyfOkQ1dcMlms2KTgsJjw4OCmJYG2P8hbYjhp63NWS__HXNQLAa9GXbp6ZJUW74b8s_-YY-vGzqaWVp4xRDam_5z0OYJfFmzdhElD5_HqyXseOWVQgOhYqGQcKLY7q9W-BuKDSPqN5ID7_tPthd0FWrNgIc",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJb3yoSKWGj4ARxt5_XUQtYmM",
+         "plus_code" : {
+            "compound_code" : "QP4W+7R Alameda, California",
+            "global_code" : "849VQP4W+7R"
+         },
+         "rating" : 3,
+         "reference" : "ChIJb3yoSKWGj4ARxt5_XUQtYmM",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24
+      }
+   ],
+   "status" : "OK"
+}

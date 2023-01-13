@@ -1,0 +1,131 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7996116,
+               "lng" : -122.2631207
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.80090872989272,
+                  "lng" : -122.2619079701073
+               },
+               "southwest" : {
+                  "lat" : 37.79820907010728,
+                  "lng" : -122.2646076298927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "Alameda County Superior Courthouse",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3971,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116391932424761215921\"\u003eArmando Chevez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKZb1bPeNacbMFYWK-AzvpTZF3TZOXTE5gPbbmB-hK_TQMuqp2E9DNM8osf8XtgcTIxX9qilZtYu8LJnZlab_Ch84E75CqhG4YgZO3nVUPlYY54nSB-bTi9aBLKHP6swjwSLXbwBzSUnHsvwwLHKDEYUK5fyYVbscZz2o1O8xU6-5E8",
+               "width" : 5956
+            }
+         ],
+         "place_id" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+         "plus_code" : {
+            "compound_code" : "QPXP+RQ Oakland, California",
+            "global_code" : "849VQPXP+RQ"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+         "scope" : "GOOGLE",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 75,
+         "vicinity" : "1225 Fallon St, Oakland"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.8014087,
+               "lng" : -122.2663669
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.80283232989273,
+                  "lng" : -122.2651203201073
+               },
+               "southwest" : {
+                  "lat" : 37.80013267010728,
+                  "lng" : -122.2678199798927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "Dept. 30, Superior Court",
+         "place_id" : "ChIJ9V4AsUqHj4ARsR3Ta9QuQGg",
+         "plus_code" : {
+            "compound_code" : "RP2M+HF Oakland, California",
+            "global_code" : "849VRP2M+HF"
+         },
+         "rating" : 3,
+         "reference" : "ChIJ9V4AsUqHj4ARsR3Ta9QuQGg",
+         "scope" : "GOOGLE",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "201 13th St, Oakland"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7996833,
+               "lng" : -122.2626592
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.80091297989271,
+                  "lng" : -122.2615144701073
+               },
+               "southwest" : {
+                  "lat" : 37.79821332010727,
+                  "lng" : -122.2642141298927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "Alameda County Juvenile Court",
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104687084067100541307\"\u003eAlexey Speransky\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALy5NYqh7AjNs7t_XL9r72Y-FHZHOoFR6I0pXQncLaH_IADBV6dxJEpKzoLrC3uyifeHR8B-jlNLpHO8zB3SCzjUIKdGneGjMd3Za0AO0sBbFvgHQZv_cYAuwdaYvYFpagxhjMo_riuu2MpeDkNTqklafRwaFIsgHnw4KQZKQadm3Je",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJt_cTCjWHj4ARdIKE2j8Wvhs",
+         "plus_code" : {
+            "compound_code" : "QPXP+WX Oakland, California",
+            "global_code" : "849VQPXP+WX"
+         },
+         "rating" : 0,
+         "reference" : "ChIJt_cTCjWHj4ARdIKE2j8Wvhs",
+         "scope" : "GOOGLE",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 0,
+         "vicinity" : "1225 Fallon St # 107, Oakland"
+      }
+   ],
+   "status" : "OK"
+}
