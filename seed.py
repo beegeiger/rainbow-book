@@ -9,6 +9,10 @@ endpoint = "json?query=restaurants%20in%20Sydney&key=" + GM_API_KEY
 payload = {}
 headers = {}
 
+url = uri_base2 + endpoint
+
 response = requests.request("GET", url, headers=headers, data=payload)
 
 print(response.text)
+with open("response.txt", "w") as f:
+    f.write(response.text)
