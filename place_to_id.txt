@@ -1,8 +1,5 @@
 {
    "html_attributions" : [],
-   "info_messages" : [
-      "Field \"input\" has been deprecated. Please use \"query\" instead. See documentation for valid queries. https://developers.google.com/maps/documentation/places/web-service/search-text#TextSearchRequests"
-   ],
    "results" : [
       {
          "business_status" : "OPERATIONAL",
@@ -28,7 +25,7 @@
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
          "name" : "Alameda County Superior Courthouse",
          "opening_hours" : {
-            "open_now" : true
+            "open_now" : false
          },
          "photos" : [
             {
@@ -36,7 +33,7 @@
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/116391932424761215921\"\u003eArmando Chevez\u003c/a\u003e"
                ],
-               "photo_reference" : "ARywPAJtLxHXN-QuynOsRX2QKM6r7heQFu2KCAsxL1swsngP8I8WjuxYcOfzxGGMPGxPl8s-hXF4OOuSzYh9dE88cl3QNE5NCGmXik8coNFa0olk1i9Xn8WKZ6GOeg8MvkL015naixzlvaxYWKvRYQODEVWsafmhg8eLkhIN1qP6CNanQlgc",
+               "photo_reference" : "ARywPAKOmRj6MPRGfGz8DrqLWum0JPTgrybLaLQ5j1kACpDug5KxCgbMhM7mzs3ubliKHlR55-aukYp5kQ4xzCATtRiWQ0WVRS5j8LjkVz8tGxnPntZ1BlOa0a3i86LpBDsJBUY776XKYfhl3IKLOayXEIc2LMDaAW-lWlJyU249CbWgISSF",
                "width" : 5956
             }
          ],
@@ -73,14 +70,13 @@
          "icon_background_color" : "#7B9EB0",
          "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
          "name" : "California Superior Court of Alameda",
-         "opening_hours" : {},
          "photos" : [
             {
                "height" : 3024,
                "html_attributions" : [
                   "\u003ca href=\"https://maps.google.com/maps/contrib/116425172904025108429\"\u003eIhor\u003c/a\u003e"
                ],
-               "photo_reference" : "ARywPALric73j_u6OVm0U5-cONyfOkQ1dcMlms2KTgsJjw4OCmJYG2P8hbYjhp63NWS__HXNQLAa9GXbp6ZJUW74b8s_-YY-vGzqaWVp4xRDam_5z0OYJfFmzdhElD5_HqyXseOWVQgOhYqGQcKLY7q9W-BuKDSPqN5ID7_tPthd0FWrNgIc",
+               "photo_reference" : "ARywPAL6j_j6spksf_6C7_TXRhP05NtgvLVHJgEJKXxKeUtilSBjsZF5p9hXpp6vtAseHMXqPMvQNfhEwBFCCiGP-DEGzM3q7Gb6O97Zit8zE6iuk5IWqpXbOl0O_pI6D_MfrIbrIwI1MAFCUd6rgQS-jLf-YXSWpN84FeKwt4bbQb7J6j3P",
                "width" : 4032
             }
          ],
