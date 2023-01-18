@@ -12,43 +12,30 @@ from flask import (Flask, render_template, redirect, request, flash,
                    session, jsonify, Blueprint, url_for)
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import (update, asc, desc)
-from model import User, Contact, Alert, CheckIn, ReqCheck, connect_to_db, User_log, db
+# from model import User, Contact, Alert, CheckIn, ReqCheck, connect_to_db, User_log, db
 import requests
 import logging
 
-from auth import requires_auth
-from functools import wraps
-from os import environ as env
-from werkzeug.exceptions import HTTPException
-from dotenv import load_dotenv, find_dotenv
+# from auth import requires_auth
+# from functools import wraps
+# from os import environ as env
+# from werkzeug.exceptions import HTTPException
+# from dotenv import load_dotenv, find_dotenv
 
 from authlib.flask.client import OAuth
 from six.moves.urllib.parse import urlencode
-from Components.alerts import alerts_bp
-from Components.contacts import contacts_bp
-from Components.profile import profile_bp
 from Components.views import views_bp
-from Components.location import location_bp
-from Components.incoming import incoming_bp
-from Components.logs import logs_bp
 from Components.check_ins import check_ins_bp
 from Components.helpers import (check_in, create_alert, send_alert_contacts, send_alert_user, check_alerts, add_log_note)
-from Components.send_email import send_SES_email
-from Components.send_SMS import send_twilio_sms
+
 from secrets import oauth_client_secret, oauth_client_id, google_maps_key
 
 app = Flask(__name__)
 app.register_blueprint(views_bp)
 app.register_blueprint(check_ins_bp)
-app.register_blueprint(location_bp)
-app.register_blueprint(incoming_bp)
-app.register_blueprint(contacts_bp)
-app.register_blueprint(profile_bp)
-app.register_blueprint(logs_bp)
-app.register_blueprint(alerts_bp)
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///besafe'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///rainbowbook'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy()
 db.app = app
@@ -123,7 +110,7 @@ def log_in():
         # session['current_user'] = 'developer@placeholder.com'
         # db.session.commit()
         # return redirect('/edit_profile')
-    uri = "https://besafe.ngrok.io/callback"
+    uri = "https://rainbowbook.ngrok.io/callback"
     print(type(uri))
     return auth0.authorize_redirect(redirect_uri=uri, audience='https://dev-54k5g1jc.auth0.com/api/v2/')
 
@@ -144,7 +131,7 @@ if __name__ == "__main__":
     print("should be working")
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     app.config.from_object('configurations.DevelopmentConfig')
-    # connect_to_db(app, 'postgresql:///besafe')
+    # connect_to_db(app, 'postgresql:///rainbowbook')
     print("Connected to DB.")
     Debug(app)
     app.run(debug=True, port=3600)
