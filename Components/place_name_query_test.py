@@ -1,4 +1,5 @@
 import requests
+import re
 from secrets import GM_API_KEY
 
 uri_text_search = "https://maps.googleapis.com/maps/api/place/textsearch/json?query="
@@ -22,5 +23,11 @@ response = requests.request("GET", url, headers=headers, data=payload)
 
 print(loc_name)
 print(response.text)
-with open("place_to_id.txt", "w") as f:
+ind_loc = response.text.find("place_id")
+ind_lis1 = response.text[ind_loc:].split(":")
+ind_lis2 = ind_lis1[1].split(",")
+ind_lis3 = ind_lis2[0]
+print(ind_lis3, type(ind_lis3))
+
+with open("place_to_id2.txt", "w") as f:
     f.write(response.text)

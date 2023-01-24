@@ -14,5 +14,6 @@ response = requests.request("GET", url, headers=headers, data=payload)
 
 print(url)
 print(response.text)
+print(response.text[results])
 with open("place_from_id1.txt", "w") as f:
     f.write(response.text)
