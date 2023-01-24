@@ -26,7 +26,7 @@ print(response.text)
 ind_loc = response.text.find("place_id")
 ind_lis1 = response.text[ind_loc:].split(":")
 ind_lis2 = ind_lis1[1].split(",")
-ind_lis3 = ind_lis2[0]
+ind_lis3 = exec(ind_lis2[0])
 print(ind_lis3, type(ind_lis3))
 
 with open("place_to_id2.txt", "w") as f:
