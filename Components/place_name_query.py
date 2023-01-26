@@ -7,7 +7,7 @@ uri_text_search = "https://maps.googleapis.com/maps/api/place/textsearch/json?qu
 test_loc = "https://www.google.com/maps/place/Alameda+County+Superior+Courthouse/@37.7969823,-122.2585934,16z/data=!4m8!1m2!3m1!2sAlameda+County+Superior+Courthouse!3m4!1s0x808f87350a13f7b7:0xa6b7c9bf1ed4615c!8m2!3d37.7996116!4d-122.2631207"
 
 
-# 
+#
 # print(loc_name)
 # print(response.text)
 # with open("place_to_id.txt", "w") as f:
@@ -29,6 +29,7 @@ def gm_place_query(input_uri):
     return get_id_from_response(response)
 
 def get_id_from_response(response):
+    """Takes response and outputs place_id"""
     ind_loc = response.text.find("place_id")
     ind_lis1 = response.text[ind_loc:].split(":")
     ind_lis2 = ind_lis1[1].split(",")
