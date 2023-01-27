@@ -1,6 +1,7 @@
 import requests
 from place_id_query import gm_id_query
 from place_name_query import gm_place_query
+from model import connect_to_db, db, Location
 
 def get_id_from_response(response):
     """Takes response and outputs place_id"""
@@ -18,3 +19,15 @@ def check_place_in_db(response):
         return "False"
     else:
         return "True"
+
+def extract_type(response):
+"""Outpute the location types from the response input"""
+
+def extract_address(response):
+"""Outpute the location types from the response input"""
+
+def extract_type(response):
+"""Outpute the location types from the response input"""
+
+def save_new_location(response):
+    """Takes response input and saves location to db"""
