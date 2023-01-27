@@ -10,4 +10,11 @@ def get_id_from_response(response):
     ind_lis3 = ind_lis2[0]
     return ind_lis3
 
-def check_place_in_db()
+def check_place_in_db(response):
+    """Queries place_id in db. Outputs True if exists, False if new"""
+    place_id = get_id_from_response(response)
+    place = Location.query.filter(Location.place_id1 == place_id).all()
+    if place == []:
+        return "False"
+    else:
+        return "True"

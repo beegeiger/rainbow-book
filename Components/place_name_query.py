@@ -26,7 +26,7 @@ def gm_place_query(input_uri):
     url = uri_text_search + loc_name  + GM_API_KEY
 
     response = requests.request("GET", url, headers=headers, data=payload)
-    return response.text
+    return response
 
 def get_id_from_response(response):
     """Takes response and outputs place_id"""
