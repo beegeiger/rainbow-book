@@ -41,11 +41,14 @@ class Location(db.Model):
 	api_id = db.Column(db.String(200), nullable=True)
 	link = db.Column(db.String(200), nullable=True)
 	attributes = db.Column(db.JSON, nullable=True)
+	place_id1 = db.Column(db.String(200), nullable=True)
+	place_id2 = db.Column(db.String(200), nullable=True)
+	place_id3 = db.Column(db.String(200), nullable=True)
 
 	def __repr__(self):
 		"""Provide helpful representation when printed."""
-		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={} api_id={} link={} attributes={}>".format(
-			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number, self.api_id, self.link, self.attributes)
+		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={} api_id={} link={} attributes={} place_id1={} place_id2={} place_id3={}>".format(
+			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number, self.api_id, self.link, self.attributes, self.place_id1, self.place_id2, self.place_id3)
 
 
 class Review(db.Model):
