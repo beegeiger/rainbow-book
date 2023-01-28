@@ -38,30 +38,84 @@ class Location(db.Model):
 	charge = db.Column(db.String(200), nullable=True)
 	rating_value = db.Column(db.Integer, nullable=True)
 	rating_number = db.Column(db.Integer, nullable=True)
+	api_id = db.Column(db.String(200), nullable=True)
+	link = db.Column(db.String(200), nullable=True)
+	attributes = db.Column(db.JSON, nullable=True)
+	place_id1 = db.Column(db.String(200), nullable=True)
+	place_id2 = db.Column(db.String(200), nullable=True)
+	place_id3 = db.Column(db.String(200), nullable=True)
 
 	def __repr__(self):
 		"""Provide helpful representation when printed."""
-		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={}>".format(
-			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number)
+		return "<device_id={} type={} address={} lat={} lon={} city={} state={} status={} charge={} rating_value={} rating_number={} api_id={} link={} attributes={} place_id1={} place_id2={} place_id3={}>".format(
+			self.device_id, self.type, self.address, self.lat, self.lon, self.city, self.state, self.statis, self.charge, self.rating_value, self.rating_number, self.api_id, self.link, self.attributes, self.place_id1, self.place_id2, self.place_id3)
 
 
 class Review(db.Model):
-	"""rainbowbook download events"""
+	"""rainbowbook reviews"""
 
 	__tablename__ = "user_log"
 
-	event_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-	source_id = db.Column(db.Integer, db.ForeignKey('sources.source_id'))
+	review_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	location_id = db.Column(db.Integer, db.ForeignKey('locations.location_id'))
+	user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
 	datetime = db.Column(db.DateTime, nullable=True)
-	time = db.Column(db.Time, nullable=True)
-	city = db.Column(db.String(200), nullable=True)
-	state = db.Column(db.String(200), nullable=True)
+	review_value = db.Column(db.Integer, nullable=True)
+	review_text = db.Column(db.String(200), nullable=True)
 
 	def __repr__(self):
 		"""Provide helpful representation when printed."""
-		return "<event_id={} source_id={} datetime={} time={} city={} state={}>".format(
-			self.event_id, self.source_id, self.datetime, self.time, self.city, self.state)
+		return "<review_id={} location_id={} user_id={} datetime={} review_value={} review_text={}>".format(
+			self.review_id, self.location_id, self.user_id, self.datetime, self.review_value, self.review_text)
 
+class User(db.Model):
+	"""User Table in rainbowbook App"""
+
+	__tablename__ = "users"
+
+	user_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	username = db.Column(db.String(64), nullable=True)
+	name = db.Column(db.String(64), nullable=True)
+	fname = db.Column(db.String(64), nullable=True)
+	lname = db.Column(db.String(64), nullable=True)
+	email = db.Column(db.String(256))
+	created_at = db.Column(db.DateTime, nullable=True)
+	phone = db.Column(db.String(28), nullable=True)
+
+	def __repr__(self):
+		"""Provide helpful representation when printed."""
+		return "<user_id={} username={} name={} fname={} lname={} email={} created_at={} phone={} type={}>".format(
+			self.user_id, self.username, self.name, self.fname, self.lname, self.email,self.created_at, self.phone, self.type)
+
+class Type(db.Model):
+	"""rainbowbook reviews"""
+
+	__tablename__ = "types"
+
+	type_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	location_id = db.Column(db.Integer, db.ForeignKey('locations.location_id'))
+	details = db.Column(db.String(200), nullable=True)
+
+
+	def __repr__(self):
+		"""Provide helpful representation when printed."""
+		return "<type_id={} location_id={} details={}>".format(
+			self.type_id, self.location_id, self.details)
+
+class Place_ID(db.Model):
+	"""rainbowbook reviews"""
+
+	__tablename__ = "place_IDs"
+
+	place_id_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	location_id = db.Column(db.Integer, db.ForeignKey('locations.location_id'))
+	actual_id = db.Column(db.String(200), nullable=True)
+
+
+	def __repr__(self):
+		"""Provide helpful representation when printed."""
+		return "<place_id_id={} location_id={} actual_id={}>".format(
+			self.type_id, self.location_id, self.details)
 
 ################################################################################
 # Helper functions

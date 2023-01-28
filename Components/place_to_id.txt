@@ -1,0 +1,95 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "1225 Fallon St, Oakland, CA 94612, United States",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7996116,
+               "lng" : -122.2631207
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.80090872989272,
+                  "lng" : -122.2619079701073
+               },
+               "southwest" : {
+                  "lat" : 37.79820907010728,
+                  "lng" : -122.2646076298927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "Alameda County Superior Courthouse",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3971,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116391932424761215921\"\u003eArmando Chevez\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKAV6IpEBMKYxVkZV2WsiE75U5yj6xBP4o3qX4AiHPAryE2eX7bJbhSbUwZDmcpjBlNjww--DIDmfC7bv58eg3oH5WcH6FYL6iJbM5Fae79uJR_A2Xbjb2G2E8eeoGE9VhE1ZgWM3OdBTNeWLH7HEdOBgTt09fVzZdH-bw-Og26YRxw",
+               "width" : 5956
+            }
+         ],
+         "place_id" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+         "plus_code" : {
+            "compound_code" : "QPXP+RQ Oakland, California",
+            "global_code" : "849VQPXP+RQ"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 75
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "2233 Shore Line Dr, Alameda, CA 94501, United States",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7555687,
+               "lng" : -122.2529692
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.75685122989272,
+                  "lng" : -122.2516441201073
+               },
+               "southwest" : {
+                  "lat" : 37.75415157010728,
+                  "lng" : -122.2543437798927
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+         "name" : "California Superior Court of Alameda",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116425172904025108429\"\u003eIhor\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKYMR6tccoc27_UrWEaxHN6H7VbJf2dVuGFTCNgwgwX-vXNo8Qt9f6zA6fouBCiBIMxVApPHRL3qLgvgf5YcXvtwa_tCVhgX2YsY2LmNjiR4xjFe8PjIbDsoNY-4RYuv8VhveCqJgILLj5MuwnsNWBXdvOODsr_KnqpZIve3GiIyMNu",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJb3yoSKWGj4ARxt5_XUQtYmM",
+         "plus_code" : {
+            "compound_code" : "QP4W+7R Alameda, California",
+            "global_code" : "849VQP4W+7R"
+         },
+         "rating" : 3,
+         "reference" : "ChIJb3yoSKWGj4ARxt5_XUQtYmM",
+         "types" : [ "courthouse", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24
+      }
+   ],
+   "status" : "OK"
+}

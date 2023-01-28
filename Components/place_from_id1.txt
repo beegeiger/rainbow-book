@@ -1,0 +1,369 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "1225",
+            "short_name" : "1225",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Fallon Street",
+            "short_name" : "Fallon St",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Downtown Oakland",
+            "short_name" : "Downtown Oakland",
+            "types" : [ "neighborhood", "political" ]
+         },
+         {
+            "long_name" : "Oakland",
+            "short_name" : "Oakland",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Alameda County",
+            "short_name" : "Alameda County",
+            "types" : [ "administrative_area_level_2", "political" ]
+         },
+         {
+            "long_name" : "California",
+            "short_name" : "CA",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "United States",
+            "short_name" : "US",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "94612",
+            "short_name" : "94612",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003e1225 Fallon St\u003c/span\u003e, \u003cspan class=\"locality\"\u003eOakland\u003c/span\u003e, \u003cspan class=\"region\"\u003eCA\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e94612\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
+      "business_status" : "OPERATIONAL",
+      "current_opening_hours" : {
+         "open_now" : false,
+         "periods" : [
+            {
+               "close" : {
+                  "date" : "2023-01-30",
+                  "day" : 1,
+                  "time" : "1430"
+               },
+               "open" : {
+                  "date" : "2023-01-30",
+                  "day" : 1,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2023-01-31",
+                  "day" : 2,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "date" : "2023-01-31",
+                  "day" : 2,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2023-01-25",
+                  "day" : 3,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "date" : "2023-01-25",
+                  "day" : 3,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2023-01-26",
+                  "day" : 4,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "date" : "2023-01-26",
+                  "day" : 4,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2023-01-27",
+                  "day" : 5,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "date" : "2023-01-27",
+                  "day" : 5,
+                  "time" : "0830"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Monday: 8:30 AM – 2:30 PM",
+            "Tuesday: 8:30 AM – 2:00 PM",
+            "Wednesday: 8:30 AM – 2:00 PM",
+            "Thursday: 8:30 AM – 2:00 PM",
+            "Friday: 8:30 AM – 2:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+         ]
+      },
+      "formatted_address" : "1225 Fallon St, Oakland, CA 94612, USA",
+      "formatted_phone_number" : "(510) 891-6000",
+      "geometry" : {
+         "location" : {
+            "lat" : 37.7996116,
+            "lng" : -122.2631207
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 37.8009078802915,
+               "lng" : -122.2619088197085
+            },
+            "southwest" : {
+               "lat" : 37.7982099197085,
+               "lng" : -122.2646067802915
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+      "icon_background_color" : "#7B9EB0",
+      "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+      "international_phone_number" : "+1 510-891-6000",
+      "name" : "Alameda County Superior Courthouse",
+      "opening_hours" : {
+         "open_now" : false,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "1430"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0830"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "1400"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0830"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Monday: 8:30 AM – 2:30 PM",
+            "Tuesday: 8:30 AM – 2:00 PM",
+            "Wednesday: 8:30 AM – 2:00 PM",
+            "Thursday: 8:30 AM – 2:00 PM",
+            "Friday: 8:30 AM – 2:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 3971,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116391932424761215921\"\u003eArmando Chevez\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgPwx-doQwzjrLphFQjmIbOWTIYk0KWsBPTXkA20RzVbyqPgHk-vN1ka-IzvwjrfGr4JqADlj-xB3KIRk2-2HtjAjuTtXZnmrzysEQiYQPu1Lyv1bawc8SVfPN7LTuF3xR_uDLgu036vcw31pfjfb98CcuUjAmOfzzkuFMUAoVffQza4",
+            "width" : 5956
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/100278780937646520848\"\u003eThomas Joseph Perez\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgOHqtzUbri40jyaMctLCNS2FBbt3nw-ugMkAcVZf2XhsAZ0s5YQ6mpY28s8JnnZewimbvMYfBwHH_oNmT-oDuu3aI2JCPNhZMdgvgJcZwtmVSuNkpWYjyYAhkl2Gva6qTEFnZ30aVr87uAa-l7F-aLnUHNq0e6vGluErEEi_bWcl4se",
+            "width" : 3024
+         },
+         {
+            "height" : 2528,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/101625843772849139481\"\u003eDamon Tighe\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgONyQzoI6gf5smnSFNPbeKtn5bRNkKwoEzvBU9nzPVze6eQ1JMYjmFO2yrNnemhEeab8xIfhCglPvhOD1X17sTRd8pQzkBTJ2KT41WEvb2yh6pbuAoU_AMUvEBnrKWEU5yUX7ei_sP1vhWCy9rF6MbQyQboPlGlJzXTbzGalT69xuwB",
+            "width" : 3747
+         },
+         {
+            "height" : 4096,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116992627015928612957\"\u003eKevin\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgMTMor3op4J7S2y-orsHe5RyjQGM_FkfkLFvYxiA11B7hh-KxtrJrz12CU7hyc9afN_dIYZ9aVyI7aMRNUeu2rSxGjcNnSTq9A3zY9uUh5DVNpUa94Qk-O-BanPmbX6jcuTiOUCEhXz9MSycZCs7DoOM4aziHl4hIEyhw1vR7jPpTzm",
+            "width" : 3072
+         },
+         {
+            "height" : 2048,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/113930324153505197912\"\u003eKevin Stewart\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgMERaqTDVrNV7JieswpKiK2NSmRgkLFV0MaYVxqDGP8GWTgoqQVEUx_hzYZWCzsXph5PuTs2lX6GkUQfa1DpwOYAmeveCwaY2rwNOrcTsQxE4tM0ZLaSYlB-dIEWso9zLmRx24DZZUcmisVQ_K8fxy4dZHmNX3HScHEOXtxnZenwcEw",
+            "width" : 1925
+         },
+         {
+            "height" : 1543,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111815904829879646942\"\u003eDonald Cooper\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgMcpDnUMLeLvGVU9zQyHeRhyicGmiAEOf-_T4OxeN7O2d3h8X2pIhx9pfblwT-uK8Uon1rO-Z-G8HqhradaH7hQPWaBivwGYJZgGBTFgHMz1MZ8Qsxp_-wGh8S2csoyrdlQ-5a8yDPRDokBEL2rcGXU1t6TduRwCYY_n6Ed8zKPXZpx",
+            "width" : 2048
+         },
+         {
+            "height" : 1607,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/107721404123505875377\"\u003eTrap Speed 1320\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgPXJ2AY0R2zULshGGvPymg8fSCqd2tkgErZ02xYpcJWomsavSr0-e9kSneP2SUqgbiyabcBp-xebv-m7D82AOGQbm3ZicWalPQyqzqbTArPj5BwEqqr1VsfUyA5oM0tuFcf-9aIGZRL90_MDFARmPqIglBDtI84DQr1JvnZ-DWSYqeC",
+            "width" : 2761
+         },
+         {
+            "height" : 3456,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/112863706490498402138\"\u003eYuta Higuchi\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgPmemaYMM_a3jHmBctgtDkYCEJVPW3DP_YCB_MBPNS9KWMvdU9_hjn-eCUGtR9I9_ZfsE0WiNSGc79AMaYd-mOEB3hW6bbwSXJY4F2Vx772ESr9jELy9aTHrIV19UOC1ffEIGnhoQ8GgYLngmt26JwqqoJpPun7VsKPnWPxy3N4b_pL",
+            "width" : 4608
+         },
+         {
+            "height" : 4128,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/107721404123505875377\"\u003eTrap Speed 1320\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgPiAmrThAo2oC_QMaIsdfOBf6gg6UNcq1MK5JCoW0D2z32xBMAVNcEFtpOncv5wuS_fqmEpRZdAtFbfwVwq80sg2UPJtWkpq43t4FhhVPcK5G7RHXwVxslemLH3tL3BOnAtaF-THJO1wMOj-l3UOxh9TQFx_zndw1ASE_CyzZMsESi9",
+            "width" : 2322
+         },
+         {
+            "height" : 4048,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111815904829879646942\"\u003eDonald Cooper\u003c/a\u003e"
+            ],
+            "photo_reference" : "AfLeUgMIm1Op2xqdGe12UYv8OBmpOflm8BQ8aN5HR3Lt1Pp8LME4keS2EdBh6V1YiFWe1DlhaeJK7lblT3BmBIBcQJ_t8Nx2r3roaXKCgDOyxdDQVUxahL-cfjQUhWwGhURmcwBMxH8Lf_PAc28YtrjkPF1vVVrbrbj7OCAN5-AWNyWLAf31",
+            "width" : 3036
+         }
+      ],
+      "place_id" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+      "plus_code" : {
+         "compound_code" : "QPXP+RQ Oakland, CA, USA",
+         "global_code" : "849VQPXP+RQ"
+      },
+      "rating" : 2.9,
+      "reference" : "ChIJt_cTCjWHj4ARXGHUHr_Jt6Y",
+      "reviews" : [
+         {
+            "author_name" : "MYSTRR e",
+            "author_url" : "https://www.google.com/maps/contrib/105571856584667135519/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WCmATomkacwBTCsxhIydoJvHcrfv-wWAURYbASLCfA=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating" : 1,
+            "relative_time_description" : "3 months ago",
+            "text" : "It was a \"GREAT SHOT!\" FROM THE LAKE looking towards  the Court House. Trust me..!! You DO NOT WANT to be there!!😶‍🌫️😫🤬😡☠️",
+            "time" : 1665856359,
+            "translated" : false
+         },
+         {
+            "author_name" : "Kelly Zavala",
+            "author_url" : "https://www.google.com/maps/contrib/115783571059202195715/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WClvTb4aJT-gH8osThkZGOF9720g-_JeehrjqRqstA=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating" : 5,
+            "relative_time_description" : "7 months ago",
+            "text" : "Idk who you helped the unsatisfied people giving the clerks office bad review because of jury summons but I have utilized both offices criminal and civil and the lady's and gentlemen that helped me were BEYOND EXCELLENT I WOULD GIVE THEM 10 STARS IF I COULD. BUT THE LADY WHO HELPED ME FILE MY CIVIL HARASSMENT RESTRAINING ORDER? Was heaven sent. I broke down at her window in tears and she helped me put my paperwork together gave me a little bottle of water and told me to sit down. GOD BLESS YOU!  She should be rewarded with a pay raise double than what she's making now because she put herself in it compassion and true love.  She and others I have met through my trying times GOD BLESS YOU ALL AND THANK YOU YOH SAVED MY LIFE.",
+            "time" : 1654026793,
+            "translated" : false
+         },
+         {
+            "author_name" : "Court Buddy",
+            "author_url" : "https://www.google.com/maps/contrib/117114781272906991491/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WCn440-2VVFnVWUm3phwq6cUmtVJIiClrGSnMGK-=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "4 years ago",
+            "text" : "We always enjoy interacting with the staff here! Thank you for treating Court Buddy clients and Attorneys with care. Always a pleasure.",
+            "time" : 1534959691,
+            "translated" : false
+         },
+         {
+            "author_name" : "Douglas James",
+            "author_url" : "https://www.google.com/maps/contrib/104610717369450061556/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WClhZfB5wvb91aLr0u4m06a5Ba-szWBn4yDxLA_GqSw=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating" : 5,
+            "relative_time_description" : "2 years ago",
+            "text" : "I used to live a couple of blocks away and watched a few trials. Interesting experience. Great looking birds at the top of the building.",
+            "time" : 1580616914,
+            "translated" : false
+         },
+         {
+            "author_name" : "alex flowers",
+            "author_url" : "https://www.google.com/maps/contrib/108914662489814734335/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a/AEdFTp5hy0R87RzsSfAWfxRLxI9m_AesyehGsQdnaZnO=s128-c0x00000000-cc-rp-mo",
+            "rating" : 3,
+            "relative_time_description" : "8 months ago",
+            "text" : "do they still have allied security they had nice security people during the week and weeknd who is the current ones?",
+            "time" : 1653781058,
+            "translated" : false
+         }
+      ],
+      "types" : [ "courthouse", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=12013292353727258972",
+      "user_ratings_total" : 75,
+      "utc_offset" : -480,
+      "vicinity" : "1225 Fallon Street, Oakland",
+      "website" : "http://www.alameda.courts.ca.gov/",
+      "wheelchair_accessible_entrance" : true
+   },
+   "status" : "OK"
+}
