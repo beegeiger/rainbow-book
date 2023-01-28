@@ -87,6 +87,36 @@ class User(db.Model):
 		return "<user_id={} username={} name={} fname={} lname={} email={} created_at={} phone={} type={}>".format(
 			self.user_id, self.username, self.name, self.fname, self.lname, self.email,self.created_at, self.phone, self.type)
 
+class Type(db.Model):
+	"""rainbowbook reviews"""
+
+	__tablename__ = "types"
+
+	type_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	location_id = db.Column(db.Integer, db.ForeignKey('locations.location_id'))
+	details = db.Column(db.String(200), nullable=True)
+
+
+	def __repr__(self):
+		"""Provide helpful representation when printed."""
+		return "<type_id={} location_id={} details={}>".format(
+			self.type_id, self.location_id, self.details)
+
+class Place_ID(db.Model):
+	"""rainbowbook reviews"""
+
+	__tablename__ = "place_IDs"
+
+	place_id_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
+	location_id = db.Column(db.Integer, db.ForeignKey('locations.location_id'))
+	actual_id = db.Column(db.String(200), nullable=True)
+
+
+	def __repr__(self):
+		"""Provide helpful representation when printed."""
+		return "<place_id_id={} location_id={} actual_id={}>".format(
+			self.type_id, self.location_id, self.details)
+
 ################################################################################
 # Helper functions
 
