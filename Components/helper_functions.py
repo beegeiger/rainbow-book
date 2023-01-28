@@ -25,6 +25,11 @@ def extract_type(response):
 
 def extract_address(response):
 """Outpute the location types from the response input"""
+    ind_formatted_address = response.text.find("formatted_address")
+    ind_formatted_phone = response.text.find("formatted_phone_number")
+    ad_lis = response.text[ind_formatted_address:ind_formatted_phone].split(":")
+    output = ad_lis[1][:-1]
+    return output
 
 def extract_type(response):
 """Outpute the location types from the response input"""
